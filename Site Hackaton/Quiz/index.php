@@ -1,0 +1,5 @@
+<?php 
+	$confirmados = $_POST[''];
+
+	
+?>

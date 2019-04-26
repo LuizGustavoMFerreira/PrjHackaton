@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>QUIZ VESTIBULINHO-Desenvolvimento de Sistemas</title>
+	<link rel="stylesheet" type="text/css" href="estilo1.css">
+</head>
+<body>
+<form>
+<fieldset>
+	<legend>
+		Identificação
+	</legend>
+	<label>Seu nome<br>
+	<input type="text" id="jogador" maxlength="40">
+	</label>
+</fieldset>
+<fieldset>
+	<legend>
+		Pergunta 1
+	</legend>
+	Você gosta de usar o PC ou outro aparelho eletronico?<br>
+	<label><input type="radio" name="p1" value="A">A) Sim</label><br>
+	<label><input type="radio" name="p1" value="B">B) Não</label><br>
+</fieldset>
+<fieldset>
+	<legend>
+		Pergunta 2
+	</legend>
+	Você usar muito aplicativos como facebook ou twitter?<br>
+	<label><input type="radio" name="p2" value="A">A) Sim</label><br>
+	<label><input type="radio" name="p2" value="B">B) Não</label><br>
+</fieldset>
+<fieldset>
+	<legend>
+		Pergunta 3
+	</legend>
+	Você gosta de desenhar?<br>
+	<label><input type="radio" name="p3" value="A">A) Sim</label><br>
+	<label><input type="radio" name="p3" value="B">B) Não</label><br>
+</fieldset>
+<fieldset>
+	<legend>
+		Pergunta 4
+	</legend>
+	Você gosta de jogar jogos digitais?<br>
+	<label><input type="radio" name="p4" value="A">A) Sim</label><br>
+	<label><input type="radio" name="p4" value="B">B) Não</label><br>
+</fieldset>
+<fieldset>
+	<legend>
+		Pergunta 5
+	</legend>
+	Você tem interesse nessas coisas?<br>
+	<label><input type="radio" name="p5" value="A">A) Sim</label><br>
+	<label><input type="radio" name="p5" value="B">B) Não</label><br>
+</fieldset>
+<fieldset>
+	<legend>
+		Pergunta 6
+	</legend>
+	Você tem interesse em aprender a construir sites e seus próprios aplicativos?<br>
+	<label><input type="radio" name="p6" value="A">A) Sim</label><br>
+	<label><input type="radio" name="p6" value="B">B) Não</label><br>
+</fieldset>
+<fieldset>
+	<legend>
+		Pergunta 7
+	</legend>
+	Se você tivesse uma oportunidade de interagir e aprender nessa área você aceitaria?<br>
+	<label><input type="radio" name="p7" value="A">A) Sim</label><br>
+	<label><input type="radio" name="p7" value="B">B) Não</label><br>
+</fieldset>
+<div id="ideal">
+	<div class="close" style="float: right; cursor: pointer; font-size: 18pt; padding-right: 5px"">X</div>
+	<h1>Parabéns</h1>
+	<p>Você é compatível com esse curso</p>
+	<button><a href="https://www.vestibulinhoetec.com.br/candidato/dados-acesso.asp">fazer inscrição</a></button>
+</div>
+
+<div id="nideal">
+	<div class="close" style="float: right; cursor: pointer; font-size: 18pt; padding-right: 5px">X</div>
+	<h1>Desculpa</h1>
+	<p>Mas você não é compativel com esse curso</p>
+	<button><a href="curso.html">fazer outro quiz</a></button>
+</div>
+</form>
+<div style="width: 50%; margin: 0 auto;">
+	<button id="btn">Ok</button>
+	<button id="voltar"><a href="../Cursos.html">Voltar</a></button>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="resultado.js"></script>
+</body>
+</html>

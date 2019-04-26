@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>QUIZ VESTIBULINHO-Edificaçoes</title>
+	<link rel="stylesheet" type="text/css" href="estilo1.css">
+</head>
+<body>
+<form>
+<fieldset>
+	<legend>
+		Identificação
+	</legend>
+	<label>Seu nome<br>
+	<input type="text" id="jogador" maxlength="40">
+	</label>
+</fieldset>
+<fieldset>
+	<legend>
+		Pergunta 1
+	</legend>
+	Voce tem atitude para cordenar uma equipe ?<br>
+	<label><input type="radio" name="p1" value="A">A) Sim</label><br>
+	<label><input type="radio" name="p1" value="B">B) Não</label><br>
+</fieldset>
+<fieldset>
+	<legend>
+		Pergunta 2
+	</legend>
+	Voce é um bom desenhista ?<br>
+	<label><input type="radio" name="p2" value="A">A) Sim</label><br>
+	<label><input type="radio" name="p2" value="B">B) Não</label><br>
+</fieldset>
+<fieldset>
+	<legend>
+		Pergunta 3
+	</legend>
+	Voce consegue lidar com situaçoes dificeis?<br>
+	<label><input type="radio" name="p3" value="A">A) Sim</label><br>
+	<label><input type="radio" name="p3" value="B">B) Não</label><br>
+</fieldset>
+<fieldset>
+	<legend>
+		Pergunta 4
+	</legend>
+ Voce termina seus obgetivos no tempo proposto ?<br>
+	<label><input type="radio" name="p4" value="A">A) Sim</label><br>
+	<label><input type="radio" name="p4" value="B">B) Não</label><br>
+</fieldset>
+<fieldset>
+	<legend>
+		Pergunta 5
+	</legend>
+	Voce tem criatividade para elaborar um projeto novo ?<br>
+	<label><input type="radio" name="p5" value="A">A) Sim</label><br>
+	<label><input type="radio" name="p5" value="B">B) Não</label><br>
+</fieldset>
+<fieldset>
+	<legend>
+		Pergunta 6
+	</legend>
+  Voce tem facilidade com a area de exatas ?<br>
+	<label><input type="radio" name="p6" value="A">A) Sim</label><br>
+	<label><input type="radio" name="p6" value="B">B) Não</label><br>
+</fieldset>
+<fieldset>
+	<legend>
+		Pergunta 7
+	</legend>
+	Voce gostaria de ganahr experiencia nessa area de trabalho?<br>
+	<label><input type="radio" name="p7" value="A">A) Sim</label><br>
+	<label><input type="radio" name="p7" value="B">B) Não</label><br>
+</fieldset>
+<div id="ideal">
+	<div class="close" style="float: right; cursor: pointer; font-size: 18pt; padding-right: 5px"">X</div>
+	<h1>Parabéns</h1>
+	<p>Você é compatível com esse curso</p>
+	<button><a href="https://www.vestibulinhoetec.com.br/candidato/dados-acesso.asp">fazer inscrição</a></button>
+</div>
+
+<div id="nideal">
+	<div class="close" style="float: right; cursor: pointer; font-size: 18pt; padding-right: 5px">X</div>
+	<h1>Desculpa</h1>
+	<p>Mas você não é compativel com esse curso</p>
+	<button><a href="curso.html">fazer outro quiz</a></button>
+</div>
+</form>
+<div style="width: 50%; margin: 0 auto;">
+	<button id="btn">Ok</button>
+	<button id="voltar"><a href="../Cursos.html">Voltar</a></button>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="resultado.js"></script>
+</body>
+</html>

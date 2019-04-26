@@ -1,0 +1,44 @@
+input[type=text]{
+	width: 80%;
+	height: 25px;
+	color: darkred;
+	font-size: 23px;
+	background-color: lightblue;
+}
+fieldset{
+	color: red;
+	background-color: lightgrey;
+	font-size: 20px;
+	width: 50%;
+	margin: 0 auto;/*alinha ao centro*/
+	border-radius: 5px;
+}
+#ideal, #nideal{
+	width: 350px;
+	height: 150px;
+	background-color: lightblue;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 15px;
+	text-align: center;
+	display: none;
+}
+a{
+	text-decoration:none;
+	color:  black;
+}
+#btn, #voltar{
+	padding: 5px 25px;
+	font-size: 14pt;
+	margin: 15px 0 0 0;
+	border-radius: 5px;
+	outline: 0;
+}
+#btn{
+	float: right;
+}
+#voltar{
+	float: left;
+}
